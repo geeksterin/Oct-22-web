@@ -19,3 +19,58 @@
 
 
 <hr>
+
+## Basic Command Lines
+
+
+### Current working directory
+
+
+### Navigating directory
+
+
+### Making Directory
+
+
+### List files and directories
+
+
+### Detail list
+
+
+### Creating file
+
+
+### Opening and writing on file
+
+
+### Opening file to read
+
+
+### Copy file
+
+
+### Rename file
+
+
+### Moving file and directory
+
+
+### Delete file and directory
+
+
+## Git and GitHub
+
+
+### 1. Install Git
+
+
+### 2. Checking status of the repository
+
+
+### 3. Configure your name and your email
+
+
+### 4. Create a local git repository
+
+

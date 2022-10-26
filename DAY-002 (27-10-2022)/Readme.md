@@ -14,3 +14,42 @@
     - [13 Forking](#13-forking)
 
 <hr>
+
+### 1. Initialize Git
+
+
+### 2. Add file to the staging area
+
+
+### 3. Unstage a file
+
+
+### 4. Commit the changes
+
+
+### 5. Creating a branch
+
+
+### 6. Create account on GitHub
+
+
+### 7. Create Repository on GitHub
+
+
+### 8. Connecting git with remote repository
+
+
+### 9. Push
+
+
+### 10. Pull
+
+
+### 11. Git clone
+
+
+### 12. The .gitignore file
+
+
+### 13. Forking
+
