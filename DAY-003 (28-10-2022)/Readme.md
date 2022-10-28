@@ -51,4 +51,3 @@
             - [Console.log with Multiple Arguments](#consolelog-with-multiple-arguments)
             - [Comments](#comments)
             - [Syntax](#syntax)
-        - [Arithmetics](#arithmetics)
