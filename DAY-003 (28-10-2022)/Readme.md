@@ -32,17 +32,12 @@
  
 <hr>
 
-
-
-
-
-
-
-
-
 <hr>
 <hr>
 <hr>
+
+
+
 - [JavaScript Introduction](#javascript-introduction)
     - [What is JavaScript](#what-is-javascript)
     - [Why we need JavaScript](#why-we-need-javascript)
