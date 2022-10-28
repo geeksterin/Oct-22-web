@@ -31,3 +31,29 @@
 - [What does the git push command do?](#what-does-git-push-command-do)
  
 <hr>
+
+
+
+
+
+
+
+
+
+<hr>
+<hr>
+<hr>
+- [JavaScript Introduction](#javascript-introduction)
+    - [What is JavaScript](#what-is-javascript)
+    - [Why we need JavaScript](#why-we-need-javascript)
+    - [What JavaScript in browser can do](#what-javascript-in-browser-can-do)
+    - [What JavaScript cannot do in browser](#what-javascript-cannot-do-in-browser)
+    - [Why is JavaScript unique from other programming language](#why-is-javascript-unique-from-other-programming-language)
+- [Setup](#setup)
+    - [Installing Mozilla FireFox](#installing-mozilla-firefox)
+        - [Opening FireFox Console](#opening-FireFox-console)
+            - [Console.log](#consolelog)
+            - [Console.log with Multiple Arguments](#consolelog-with-multiple-arguments)
+            - [Comments](#comments)
+            - [Syntax](#syntax)
+        - [Arithmetics](#arithmetics)
