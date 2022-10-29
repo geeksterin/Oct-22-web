@@ -14,13 +14,6 @@
     - [Arithmetic Operators](#arithmetic-operators)
     - [Comparison Operators](#comparison-operators)
     - [Logical Operators](#logical-operators)
-    - [Bitwise Operators](#bitwise-operators)
     - [String Operators](#string-operators)
-    - [Other Operators](#other-operators)
 
-- [JavaScript Variables](#javascript-variables)
-    - [JavaScript-Declare-Variables](#javascript-declare-variables)
-    - [JavaScript Initialize Variables](#javascript-initialize-variables)
-    - [Change the Value of Variables](#change-the-value-of-variables)
-    - [Rules for Naming JavaScript Variables](#rules-for-naming-javascript-variables)
 
