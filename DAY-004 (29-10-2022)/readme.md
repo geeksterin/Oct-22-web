@@ -8,7 +8,6 @@
 - [Boolean](#boolean)
 - [Undefined](#undefined)
 - [Null](#null)
-- [Symbol](#symbol)
 - [What is an Operator?](#what-is-an-operator)
 - [Type of Operators](#type-of-operators)
     - [Assignment Operators](#assignment-operators)
