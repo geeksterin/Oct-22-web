@@ -2,5 +2,4 @@
 	- [If](#if)
 	- [If Else](#if-else)
 	- [If  Else if Else](#if--else-if-else)
-	- [Switch](#switch)
 	- [Ternary Operators](#ternary-operators)
