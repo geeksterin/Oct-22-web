@@ -114,3 +114,9 @@ console.log((x===y)||(x===z));
 console.log(!(x==y));
 
 // logical operators
+
+var rishabh
+console.log(rishabh);
+
+var hello = null
+console.log(hello);
