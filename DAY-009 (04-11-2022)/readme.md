@@ -1,0 +1,7 @@
+- [Strings](#strings)
+	- [String Concatenation](#string-concatenation)
+		- [Concatenating Using Addition Operator](#concatenating-using-addition-operator)
+		- [Long Literal Strings](#long-literal-strings)
+		- [Escape Sequences in Strings](#escape-sequences-in-strings)
+		- [Template Literals (Template Strings)](#template-literals-template-strings)
+	- [String Methods](#string-methods)

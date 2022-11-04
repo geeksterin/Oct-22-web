@@ -1,0 +1,7 @@
+- [Functions](#functions)
+	- [Function Declaration](#function-declaration)
+	- [Function without a parameter and return](#function-without-a-parameter-and-return)
+	- [Function returning value](#function-returning-value)
+	- [Function with a parameter](#function-with-a-parameter)
+	- [Function with two parameters](#function-with-two-parameters)
+	- [Function with many parameters](#function-with-many-parameters)
