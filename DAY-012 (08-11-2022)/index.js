@@ -85,3 +85,17 @@
 
 // console.log(arr.sort());
 // console.log(arr.reverse())
+
+// <!-- array of arrays -->
+
+arr1 = [1,2,4,5,6]
+arr2 = ["abc", "def", "ghi"]
+finalarray = []
+finalarray.push(arr1)
+finalarray.push(arr2)
+console.log(finalarray);
+console.log(finalarray.length);
+console.log(finalarray[0].length);
+console.log(finalarray[0][0]);
+console.log(finalarray[1][0]);
+
