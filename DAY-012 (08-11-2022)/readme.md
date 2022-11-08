@@ -11,15 +11,3 @@
 		- [Sorting elements in array](#sorting-elements-in-array)
     - [Array of Arrays](#array-of-arrays)
 
-
-- [Object](#object)
-	- [Creating an empty object](#creating-an-empty-object)
-	- [Creating an objecting with values](#creating-an-objecting-with-values)
-	- [Getting values from an object](#getting-values-from-an-object)
-	- [Creating object methods](#creating-object-methods)
-	- [Setting new key for an object](#setting-new-key-for-an-object)
-    - [Object Methods](#object-methods)
-		- [Getting object keys using Object.keys()](#getting-object-keys-using-objectkeys)
-		- [Getting object values using Object.values()](#getting-object-values-using-objectvalues)
-		- [Getting object keys and values using Object.entries()](#getting-object-keys-and-values-using-objectentries)
-		- [Checking properties using hasOwnProperty()](#checking-properties-using-hasownproperty)
