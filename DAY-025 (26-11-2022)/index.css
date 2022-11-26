@@ -1,0 +1,24 @@
+.mainContainer{
+    border: 2px solid red;
+    /* height: 50vh; */
+    display: flex;
+    /* flex-direction: row; */
+    flex-direction: row;
+    /* justify-content: space-between; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+    /* align-items: center; */
+    /* align-items: flex-start; */
+
+    flex-wrap: wrap-reverse;
+}
+
+.subContainer1,
+.subContainer2,
+.subContainer3,
+.subContainer4{
+    border: 2px solid black;
+
+}
