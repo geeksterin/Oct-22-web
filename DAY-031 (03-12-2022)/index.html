@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .mainContainer {
+            display: grid;
+            gap: 10px;
+        }
+
+        .one {
+            grid-column: 1 / 12;
+            height: 10vh;
+            display: grid;
+        }
+
+        .two {
+            grid-column: 1 / 3;
+            height: 80vh;
+        }
+
+        .three {
+            grid-column: 3 / 12;
+            height: 80vh;
+        }
+
+        .four {
+            grid-column: 1 / 7;
+            height: 80vh;
+        }
+
+        .five {
+            grid-column: 7 / 12;
+            height: 80vh;
+
+        }
+
+        .six {
+            grid-column: 1 / 4;
+        }
+
+        .seven {
+            grid-column: 4 / 8;
+            height: 70vh;
+        }
+
+        .eight {
+            grid-column: 8 / 12;
+            height: 70vh;
+        }
+
+        .nine {
+            grid-column: 1 / 10;
+
+        }
+
+        .ten {
+            grid-column: 1 / 11;
+            border: 2px solid red;
+        }
+
+        .eleven {
+            grid-column: 1 / 12;
+            border: 2px solid red;
+        }
+
+
+        .one,
+        .two,
+        .three,
+        .four,
+        .five,
+        .six,
+        .seven,
+        .eight,
+        .nine {
+
+            border: 2px solid red;
+        }
+
+        .navLeft {
+            border: 2px solid green;
+            grid-column: 1/2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .navRight {
+            border: 2px solid green;
+            grid-column: 2/12;
+        }
+
+        .navRight ul {
+            display: flex;
+            list-style: none;
+            height: 100%;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            border: 2px solid blue;
+        }
+
+        ul li {
+            border: 2px solid green;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .two ul {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            justify-content: space-around;
+            list-style: none;
+        }
+
+        .three {
+            background-color: black;
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="mainContainer">
+        <div class="one">
+            <div class="navLeft">
+                Logo Here
+            </div>
+            <div class="navRight">
+                <ul>
+                    <li>menu 1</li>
+                    <li>menu 2</li>
+                    <li>menu 3</li>
+                    <li>menu 4</li>
+                    <li>menu 5</li>
+                    <li>menu 6</li>
+                    <li>menu 7</li>
+                    <li>menu 8</li>
+                    <li>menu 9</li>
+                    <li>menu 10</li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="two">
+            <ul>
+                <li>menu 1</li>
+                <li>menu 2</li>
+                <li>menu 3</li>
+                <li>menu 4</li>
+                <li>menu 5</li>
+                <li>menu 6</li>
+                <li>menu 7</li>
+                <li>menu 8</li>
+                <li>menu 9</li>
+                <li>menu 10</li>
+
+            </ul>
+        </div>
+        <div class="three">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/KWq6UDCuVbo"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div class="four">
+            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6979746060650885121" height="100%" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+        </div>
+        <div class="five">five</div>
+        <div class="six">six</div>
+        <div class="seven">seven</div>
+        <div class="eight">egight</div>
+        <div class="nine">nine</div>
+        <div class="ten">ten</div>
+        <div class="eleven">eleven</div>
+        <div class="twelve">twelve</div>
+    </div>
+</body>
+
+</html>
