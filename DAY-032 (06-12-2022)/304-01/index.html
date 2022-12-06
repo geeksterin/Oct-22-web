@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+        }
+        .parent{
+            border: 20px solid black;
+            /* margin: auto; */
+            width: 500px;
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .subParent{
+            /* border: 2px solid red; */
+            height: 550px;
+            width: 450px;
+            background-color: brown;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            filter: blur(3px);
+        }
+
+        .child1{
+            border: 2px solid yellow;
+            height: 30%;
+            width: 85%;
+            background-color: yellow;
+            border-radius: 10px;
+
+        }
+        .child2{
+            height: 30%;
+            width: 95%;
+            background-color: rgb(153, 7, 7);
+            border-radius: 10px;
+
+        }
+        .child3{
+            height: 30%;
+            width: 85%;
+            background-color: rgb(216, 5, 5);
+            border-bottom-right-radius: 3rem;
+            border-top-right-radius: 2rem;
+            border-bottom-left-radius: .5rem;
+            border-top-left-radius: 1rem;
+
+        }
+    </style>
+
+</head>
+<body>
+    <div class="parent">
+        <div class="subParent">
+            <div class="child1"></div>
+            <div class="child2"></div>
+            <div class="child3"></div>
+        </div>
+    </div>
+</body>
+</html>
