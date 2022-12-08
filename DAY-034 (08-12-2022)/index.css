@@ -1,0 +1,436 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+
+/* =========================================================== */
+
+.navbarSection {
+    height: 10vh;
+    display: flex;
+}
+
+.navbarLeftContainer {
+    height: 100%;
+    width: 30%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    font-weight: 900;
+    color: #67d4ca;
+    font-size: 1.5rem;
+}
+
+.navbarRightContainer {
+    height: 100%;
+    width: 70%;
+    /* border: 2px solid green; */
+    display: flex;
+}
+
+.navbarRightLeftContainer{
+    height: 100%;
+    width: 70%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbarRightLeftContainer ul,
+.navbarRightRightContainer ul{
+    list-style: none;
+    display: flex;
+    height: 100%;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center;    
+}
+
+.navbarRightLeftContainer ul li,
+.navbarRightRightContainer ul li{
+    /* border: 2px solid red; */
+    padding: .5rem 1rem;
+}
+
+.navbarRightLeftContainer ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: #67d4ca;
+}
+
+.navbarRightRightContainer{
+    height: 100%;
+    width: 30%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+/* =========================================================== */
+
+.landingSection {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    /* border: 2px solid black; */
+    background-color: #E9E9EB;
+}
+
+.landingSectionTop{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+
+
+.landingSectionLeftContainer{
+    width: 60%;
+    height: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-left: 5rem;
+}
+
+.landingSectionLeftContainer h1{
+    width: 80%;
+    height: 20%;
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.landingSectionLeftContainer p{
+    width: 80%;
+    height: 20%;
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+}
+
+.landingSectionLeftContainer button{
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    /* border: 2px solid blue; */
+    background-color: #169E8A ;
+    border: none;
+    outline: none;
+    
+}
+
+.landingSectionRightContainer{
+    width: 40%;
+    height: 100%;
+    /* border: 2px solid green; */
+}
+
+/* =========================================================== */
+
+.productCollectionSection {
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: -128px;
+    width: 85%;
+
+
+}
+
+.productCollectionSectionMainContainer{
+    width: 32%;
+    height: 95%;
+    border: 8px solid white;
+    display: flex;
+    background-color: #E9E9EB;
+
+}
+
+.productCollectionSectionMainContainerLeftContainer{
+    width: 60%;
+    height: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.productCollectionSectionMainContainerLeftContainer h3{
+height: 20%;
+width: 80%;
+/* border: 2px solid green; */
+}
+
+.productCollectionSectionMainContainerLeftContainer p{
+height: 20%;
+width: 80%;
+/* border: 2px solid green; */
+}
+
+.productCollectionSectionMainContainerLeftContainer a{
+    height: 20%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    color: #169E8A;
+}
+
+.productCollectionSectionMainContainerRightContainer{
+    width: 40%;
+    height: 100%;
+    /* border: 2px solid blue; */
+}
+
+/* =========================================================== */
+
+.howItWorksSection {
+    height: 90vh;
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.howItWorksSection h1{
+    height: 10%;
+    width: 100%;
+    border: 2px solid green;
+}
+
+
+.howItWorksSectionTopContainer{
+    width: 100%;
+    height:45%;
+    border: 2px solid green;
+    display: flex;
+}
+
+.howItWorksSectionTopContainerLeftContainer,
+.howItWorksSectionTopContainerRightContainer{
+    height: 100%;
+    width: 50%;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.howItWorksSectionTopContainerLeftContainerContent,
+.howItWorksSectionBottomContainerLeftContainerContent{
+    width: 30%;
+    height: 50%;
+    box-shadow: 2px 2px 3px grey;
+}
+
+
+.howItWorksSectionBottomContainer{
+    width: 100%;
+    height:45%;
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.howItWorksSectionBottomContainerLeftContainerContent{
+    width: 15% !important;
+}
+
+/* =========================================================== */
+
+.purchasingSection {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.purchasingSectionTopContainer{
+    width: 100%;
+    height: 85%;
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.purchasingSectionTopContainerParentContainer{
+    width: 25%;
+    height: 100%;
+    border: 2px solid blue;
+}
+
+.purchasingSectionBottomContainer{
+    width: 100%;
+    height: 15%;
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* =========================================================== */
+
+.keyFeaturesSection {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.keyFeaturesSection h1{
+    width: 100%;
+    height: 15%;
+    border: 2px solid green;
+}
+
+.keyFeaturesSectionMainContainer{
+    width: 100%;
+    height: 85%;
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.keyFeaturesSectionMainContainerParentContainer{
+    width: 23%;
+    height: 90%;
+    border: 2px solid blue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.keyFeaturesSectionMainContainerParentContainer i{
+height: 20%;
+width: 80%;
+border: 2px solid red;
+}
+
+.keyFeaturesSectionMainContainerParentContainer h3{
+height: 20%;
+width: 80%;
+border: 2px solid red;
+}
+
+.keyFeaturesSectionMainContainerParentContainer p{
+   height: 20%;
+   width: 80%;
+   border: 2px solid red; 
+}
+
+/* =========================================================== */
+
+.paymentMethodSection {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.paymentMethodSection h3{
+    width: 100%;
+    height: 30%;
+    border: 2px solid green;
+}
+
+.paymentMethodSectionImageContainer{
+    width: 100%;
+    height: 70%;
+    border: 2px solid green;
+}
+
+.paymentMethodSectionImageContainer{
+    display: flex;
+}
+
+/* =========================================================== */
+
+.bannerSection {
+    height: 40vh;
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+
+.bannerSectionLeftContainer{
+    width: 70%;
+    height: 100%;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bannerSectionLeftContainer h1{
+    width: 100%;
+    height: 20%;
+    border: 2px solid blue;
+}
+
+.bannerSectionLeftContainer p{
+    width: 100%;
+    height: 20%;
+    border: 2px solid blue;
+}
+
+.bannerSectionLeftContainer button{
+    width: 100%;
+    height: 20%;
+    border: 2px solid blue;
+}
+
+.bannerSectionRightContainer{
+    width: 30%;
+    height: 100%;
+    border: 2px solid green;
+}
+
+/* =========================================================== */
+
+.footerSection {
+    height: 50vh;
+
+}
+
+.footerSectionTopContainer{
+    width: 100%;
+    height: 80%;
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerSectionTopContainerParentContainer{
+    width: 20%;
+    height: 100%;
+    border: 2px solid blue;
+}
+
+.footerSectionBottomContainer{
+    width: 100%;
+    height: 20%;
+    border: 2px solid green;
+}
