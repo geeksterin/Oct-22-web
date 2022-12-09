@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Martian+Mono:wght@100;200;300;400;500;600;700;800&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Rubik+Microbe&display=swap" rel="stylesheet">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            border: 2px solid red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Martian Mono', monospace;
+        }
+
+        .parent1 {
+  
+            height: 20vh;
+            width: 70vw;
+            display: flex;
+            justify-content: center;
+            background: linear-gradient(to right , grey,grey, black, black );
+        }
+
+        .child1{
+            height: 100%;
+            width: 30%;
+            transform: skew(-45deg);
+            background-color: grey;
+        }
+
+
+        .child3 {
+            height: 100%;
+            transform: skew(-45deg);
+            width: 20%;
+            background-color: white;
+        }
+
+        .child2 {
+            height: 100%;
+            width: 30%;
+            transform: skew(-45deg);
+            background-color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="parent1">
+        <div class="child1"></div>
+        <div class="child3"></div>
+        <div class="child2"></div>
+    </div>
+</body>
+
+</html>
