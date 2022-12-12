@@ -15,6 +15,7 @@ section {
 .navbarSection {
     height: 10vh;
     display: flex;
+    background-color: green;
 }
 
 .navbarLeftContainer {
